@@ -1,0 +1,7 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: #fafafa; /* Add a background color to avoid transparency issues */
+  width: 100%; /* Ensure it takes the full width */
+}

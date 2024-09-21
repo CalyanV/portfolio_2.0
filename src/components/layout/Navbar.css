@@ -1,0 +1,57 @@
+.navbar {
+  background-color: rgba(45, 55, 72, 0.8); /* Semi-transparent bg-gray-800 */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds depth */
+  padding: 1rem; /* p-2 px-4 */
+  border-radius: 6rem; /* rounded-full */
+  display: inline-flex; /* Change to inline-flex to fit content */
+  justify-content: center;
+  align-items: center;
+  position: sticky; /* Make the navbar sticky */
+  top: 1rem; /* Stick to the top with a 1rem gap */
+  margin: 1rem; /* Create a 1rem gap from the top of the screen */
+  z-index: 1000; /* Ensure it stays above other content */
+  width: auto; /* Fit to the width of the elements */
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  color: white;
+  margin: 0 0.5rem; /* Reduce space between items */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem; /* py-2 px-4 */
+  border-radius: 6rem; /* rounded */
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* bg-opacity-10 */
+}
+
+.navbar .resume-link {
+  background-color: rgba(255, 255, 255, 0.1); /* bg-opacity-10 */
+  color: white;
+  padding: 0.5rem 1.5rem; /* py-2 px-4 */
+  border-radius: 6rem; /* rounded */
+  transition: background-color 0.3s ease;
+}
+
+.navbar .resume-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* bg-opacity-20 */
+}
+
+.navbar-wrapper {
+  width: 100%;
+}
